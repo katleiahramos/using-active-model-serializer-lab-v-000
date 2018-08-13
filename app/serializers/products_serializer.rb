@@ -1,3 +1,3 @@
-class ProductsSerializer < ActiveModel::Serializer
+class ProductSerializer < ActiveModel::Serializer
   attributes :id
 end
