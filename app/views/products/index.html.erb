@@ -13,7 +13,7 @@ $(function() {
         var product = data
         var inventoryText = "<strong> Available </strong>"
         if (product["inventory"] === 0) {
-          inventoryText = "<strong> Sold Out </song"
+          inventoryText = "<strong> Sold Out</strong>"
         }
         var descriptionText = "<p>" + description + "</p><p>" + inventoryText + "</p>";
         $("#product-" + id).html(descriptionText);
